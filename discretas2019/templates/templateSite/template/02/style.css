@@ -1,0 +1,436 @@
+ @import url(../form.css);
+ 
+ 
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #bdbdaa;
+  font: 100.01%/1.2 Geneva, Arial, Helvetica, sans-serif;
+  padding: 20px 0;
+  color: #000;
+}
+
+img {
+  border: none;
+}
+
+
+#container {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+
+#content {
+	
+  background: url(./images/mainbg.gif) no-repeat 0 1024px; 
+}
+
+
+/* ######################### skip to main content */
+
+p#skiptocontent {
+  position: absolute;
+  top: -100px;
+    width: 1024px;
+}
+
+p#skiptocontent a {
+  display: block;
+  padding: 2px 8px;
+  right: 0;
+  position: absolute;
+  background-color: #000;
+  font-size: 0.8em;
+  font-weight: bold;
+  line-height: 1.5;
+  text-decoration: none;
+  z-index: 100;
+}
+
+p#skiptocontent a:link, p#skiptocontent a:visited {
+  top: 0;
+  color: #ff9;
+}
+
+p#skiptocontent a:hover, p#skiptocontent a:active, p#skiptocontent a:focus {
+  top: 120px;
+  color: #ff9;
+}
+
+/* ######################### header */
+
+#header {
+
+  width: 1024px;
+  background: url(./images/mainbg.gif) no-repeat 0 0;
+  color: #ddd;
+  position: relative;
+}
+
+#header div {
+  /* height: 46px; ORIGINAL */
+  padding-top:5px;
+  height: 111px;
+  width: 1024px;
+  background-color: #58584f;
+}
+
+#header h1 {
+  float: left;
+  font-size: 30px;
+  width: 970px;
+  padding-left:15px;
+  color:#FFFFCC;
+}
+
+#header h2 {
+  font-size: 20px;
+  width: 400px;
+  padding-left:15px;
+  color:  #FFFFCC;
+}
+
+#header p {
+  text-align: right;
+  font-size: 0.75em;
+  padding-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 20px;
+  font-weight: bold;
+  color: #ccc;
+}
+
+#header h1 img {
+  float: left;
+}
+
+
+
+
+#strapline {
+  float: right;
+  width: 1024px;
+  font-size: 1.1em;
+  color: #666666 ;
+  background: url('images/mainbg_big.png') no-repeat 0 100%;
+
+}
+
+#strapline p {
+  margin: 35px 20px 30px 20px;
+}
+
+
+/* ######################### header :: navigation */
+
+ul#navigation {
+/*  clear: left;
+  float: left; */
+  position:absolute;
+  left: 0; 
+  top: 110px;
+  width: 1024px;
+  height: 1.8em;
+  list-style-type: none;
+  background-color: #47473f;
+  font-size: 0.7em;
+}
+
+ul#navigation li {
+  padding-left:10px;
+  padding-right:10px;
+  float: left;
+  text-align:center;
+
+}
+
+ul#navigation a {
+
+  float: left;
+  text-align: center;
+  line-height: 1.8em;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-right: 2px solid #58584f;
+}
+
+ul#navigation a:link, ul#navigation a:visited {
+  color: #b1b1b1;
+}
+
+ul#navigation a:hover, ul#navigation a:active, ul#navigation a:focus {
+  color: #fefefe;
+  background-color: #58584f;
+}
+
+body#homepage ul#navigation a#home, 
+body#blogpage ul#navigation a#blog, 
+body#aboutpage ul#navigation a#about {
+  color: #fefefe;
+  background-color: #58584f;
+}
+
+
+/* ######################### main content */
+
+#maincontent {
+  margin-left: 20px;
+  color: #333;
+  width: 490px;
+}
+
+.optionItem {
+  width: 980px;
+  float: left;
+  padding-right: 30px;
+  margin-bottom: 10px;
+  margin-right: 90px;
+  margin-top: 30px;
+  margin-left: 20px;
+  font-size:12px;
+  text-align:justify;
+  
+}
+
+#maincontent h2 {
+  font-size: 1.2em;
+}
+
+#maincontent p {
+  font-size: 0.75em;
+}
+
+#maincontent a:link, #maincontent a:visited {
+  color: #000;
+}
+
+#maincontent a:hover, #maincontent a:active, #maincontent a:focus {
+  color: #666;
+}
+
+#maincontent .optionUrl {
+  margin-top: 1.5em;
+}
+
+#maincontent .optionUrl a {
+  color: #bf0000 !important;
+  font-size: 0.9em;
+}
+
+#maincontent .optionUrl a:link, #maincontent .optionUrl a:visited {
+  text-decoration: none;
+}
+
+#maincontent .optionUrl a:hover, #maincontent .optionUrl a:active, #maincontent .optionUrl a:focus {
+  text-decoration: underline;
+}
+
+#maincontent .bottom {
+  clear: left;
+  padding-top: 50px;
+  background: url(./images/optionline.gif) no-repeat 0 25px;
+}
+
+
+
+/* ######################### main content: sidebar */
+
+#sidebar {
+  width: 265px;
+  background: url(prodFeedbackbg.png) no-repeat 100% 100%;
+  float: right;
+  padding-bottom: 15px;
+}
+
+#sidebar h2 {
+  font-size: 0.9em;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 0 0 0 15px;
+  padding-right: 30px;
+  padding-top: 15px;
+  background: #bdbdaa url(prodFeedbackbg.png) no-repeat 100% 0;
+}
+
+#sidebar h3 {
+  font-size: 0.7em;
+  font-weight: bold;
+  margin: 15px 30px 0 15px;
+}
+
+#sidebar blockquote {
+  font-size: 0.7em;
+  color: #6a6a6a;
+  margin: 0 30px 15px 15px;
+}
+
+#sidebar blockquote p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#sidebar cite {
+  display: block;
+  font-weight: bold;
+  color: #333;
+}
+
+#sidebar a:link, #sidebar a:visited {
+  color: #333;
+}
+
+#sidebar a:hover, #sidebar a:active, #sidebar a:focus {
+  color: #777;
+}
+
+
+/* ######################### contact */
+
+#contact {
+  width: 755px;
+  clear: left;
+  padding-top: 30px;
+}
+
+#contact div {
+  width: 460px;
+  margin-left: 20px;
+  float: left;
+}
+
+#contact h2 {
+  font-size: 1em;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 0.5em;
+  margin-top: 15px;
+}
+
+#contact address {
+  font-style: normal;
+  font-size: 0.7em;
+  width: 224px;
+  float: left;
+}
+
+#contact p {
+  font-style: normal;
+  font-size: 0.7em;
+  width: 225px;
+  float: right;
+}
+
+#contact p a {
+  color: #bf0000;
+}
+
+#contact p a:link, #contact p a:visited {
+  text-decoration: none;
+}
+
+#contact p a:hover, #contact p a:active, #contact p a:focus {
+  text-decoration: underline;
+}
+
+
+/* ######################### legal footer */
+
+#legal {
+  clear: both;
+  width: 720px;
+  margin: 0 auto;
+  padding-top: 10px;
+  font-size: 0.65em;
+  color: #5a5a5a;
+}
+
+#legal a {
+  color: #5a5a5a;
+}
+
+
+/* ######################### ABOUT page -- main content: contact details */
+
+body#aboutpage p#intro {
+  padding-bottom: 1px;
+  margin-bottom: 20px;
+  font-size: 0.9em;
+  color: #444;
+  clear: left;
+}
+
+body#aboutpage #sidebar {
+  padding-bottom: 30px;
+}
+
+#sidebar address, body#aboutpage #sidebar p {
+  font-style: normal;
+  font-size: 0.8em;
+  line-height: 1.3;
+  margin: 0 0 0 15px;
+  padding-right: 30px;
+  padding-top: 15px;
+}
+
+#sidebar p#telephone {
+  font-weight: bold;
+}
+
+body#aboutpage #sidebar a {
+  color: #bf0000;
+}
+
+body#aboutpage #sidebar a:link, body#aboutpage #sidebar a:visited {
+  text-decoration: none;
+}
+
+body#aboutpage #sidebar a:hover, body#aboutpage #sidebar a:active, 
+body#aboutpage #sidebar a:focus {
+  text-decoration: underline;
+}
+
+
+#maincontent div.person {
+  margin-bottom: 30px;
+  padding-top: 30px;
+  float: left;
+  width: 450px;
+  border-top: 2px solid #d8d8d8;
+  clear: left;
+}
+
+#maincontent div.person.first {
+  margin-top: 0;
+  padding-top: 0;
+  border: none;
+}
+
+#maincontent div.person img {
+  float: left;
+}
+
+#maincontent div.person h3, #maincontent div.person p {
+  margin-left: 128px;
+}
+
+#maincontent div.person h3 {
+  color: #575757;
+  font-size: 1.2em;
+  font-weight: normal;
+}
+
+#maincontent div.person span {
+  display: block;
+  color: #888;
+  font-size: 0.6em;
+}
+
+#maincontent div.person p {
+  font-size: 0.8em;
+  margin-top: 10px;
+}
+
