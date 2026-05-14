@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name = "description" 
+      content = "Bringing together researchers and practitioners in the field of Computational Logistics to present their latest results and findings in a fruitful and open-minded environment." /> 
+    <title>ICCL 2019</title>
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+
+    <link rel="apple-touch-icon" sizes="57x57" href="img/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="img/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="img/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="manifest" href="img/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="img/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+          integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/news.css" >
+    <link rel="stylesheet" href="css/plans.css" >
+    <link rel="stylesheet" href="css/profile.css" >
+    <link rel="stylesheet" href="css/venue.css" >
+    <link rel="stylesheet" href="css/topics.css" >
+    <style>
+        .iccl-color {
+            color: #2374B6;
+        }
+    </style>
+    
+    
+	<script src="js/jnoty.min.js"></script>
+	<link rel="stylesheet" href="css/jnoty.css" >
+</head>
+<body>
+<div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 bg-white border-bottom fixed-top shadow-sm">
+  <div class="col-xs-10 col-sm-5">
+    <h5 class="my-0 mr-md-auto font-weight-normal">
+        <a href="http://iccl2019.co"><img src="img/iccl2019logo.png" class="logo" alt="ICCL 2019" /></a>
+    </h5>
+  </div>
+  <div class="col-xs-2">
+    <div class="show-xs dropdown">
+        <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" 
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <i class="fa fa-bars"></i>
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" style="background-color: white;">
+            <a class="dropdown-item text-dark" href="home.php">Home</a>
+            <a class="dropdown-item text-dark" href="dates.php">Dates</a>
+            <a class="dropdown-item text-dark" href="fees.php">Fees</a>
+            <a class="dropdown-item text-dark" href="committees.php">Committees</a>
+            <a class="dropdown-item text-dark" href="papers.php">Papers</a>
+            <a class="dropdown-item text-dark" href="keynote-speakers.php">Keynote Speakers</a>
+            <a class="dropdown-item text-dark" href="program.php">Program</a>
+            <a class="dropdown-item text-dark" href="venue-accomodations.php">Venue</a>
+            <a class="dropdown-item text-dark" href="sponsors.php">Sponsors</a>
+            <a class="dropdown-item text-dark" href="downloads.php">Downloads</a>
+        </div>
+    </div>
+  </div>
+  
+  <nav class="col-sm-7 hidden-xs" style="font-size: 10pt;">
+    <a class="p-2 text-dark" href="home.php">Home</a>
+    <a class="p-2 text-dark" href="dates.php">Dates</a>
+    <a class="p-2 text-dark" href="fees.php">Fees</a>
+    <a class="p-2 text-dark" href="committees.php">Committees</a>
+    <a class="p-2 text-dark" href="papers.php">Papers</a>
+    <a class="p-2 text-dark" href="keynote-speakers.php">Keynote Speakers</a>
+    <a class="p-2 text-dark" href="program.php">Program</a>
+    <a class="p-2 text-dark" href="venue-accomodations.php">Venue</a>
+    <a class="p-2 text-dark" href="sponsors.php">Sponsors</a>
+    <a class="p-2 text-dark" href="downloads.php">Downloads</a>
+  </nav>
+</div>
+<div id="carousel_img" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active" style="max-height: 450px; height: auto;">
+            <!--<video class="video-fluid" autoplay loop muted preload="" style="width: 100%; min-height: 450px;">
+                <source src="img/baq_vid.mov" type="video/mp4" />
+            </video>-->
+            <img src="img/unorte1.jpg" class="d-block w-100" style="width: 100%;" />
+            <div class="container">
+            <div class="carousel-caption text-center" style="text-shadow: 0 1px 2px rgba(0,0,0,.6);" >
+                <h1>ICCL 2019</h1>
+                <p class="hidden-xs">Bringing together researchers and practitioners in the field of Computational Logistics to present their latest results and findings in a fruitful and open-minded environment.</p>
+                <p class="btn btn-lg btn-primary">
+                <a style="color: #fff;" href="tutorial.php">Registration is now open, click here to learn more.</a>
+                </p>
+            </div>
+            </div>        
+        </div>
+        
+    </div>
+    <!--<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span> 
+    </a>-->
+</div>
+<div class="container marketing">
+<hr class="featurette-divider">
+<div class="row" style="margin-top: 10px;">
+    <div class="col-sm-4 text-center">
+    <p class="text-muted">Hosted by</p>
+    <a href="https://www.uninorte.edu.co">
+        <img src="img/uninorte.jpg" style="width: 75%;" />
+    </a>
+    </div>
+    <div class="col-sm-4 text-center">
+    <p class="text-muted">In association with</h5>
+    <a href="https://www.bwl.uni-hamburg.de/iwi.html">
+        <img src="img/uh.svg" style="width: 75%;" />
+    </a>
+    </div>
+    <div class="col-sm-4 text-center">
+    <p></p>
+    <a href="http://www.springer.com/it/computer-science/lncs">
+        <img src="img/lncslogo.jpeg" style="width: 70%;" />
+    </a>    
+    </div>
+</div>
+<hr/>
+    <div class="row featurette">
+    <div class="col-sm-12">
+    <h2 class="iccl-color">Directions</h2>
+    <p class="text-muted">Know how to reach to Universidad del Norte from Ernesto Cortissoz Airport. The <b>NH Collection</b> reserved several rooms to the ICCL 2019 participants (single or double occupancy) for a reduced fee. To book a room, please click <a href="https://www.nh-collection.com/es/hotel/nh-collection-barranquilla-smartsuites-royal">here.</a></p>
+    </div>
+    <div class="col-sm-12">
+      <div class="card mt-3 tab-card">
+        <div class="card-header tab-card-header">
+          <ul class="nav nav-tabs card-header-tabs" id="myTab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active show" id="one-tab" data-toggle="tab" href="#one" role="tab" aria-controls="One" aria-selected="true">
+                  Airport to Uninorte
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="two-tab" data-toggle="tab" href="#two" role="tab" aria-controls="Two" aria-selected="false">
+                  Airport to NH Collection
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="three-tab" data-toggle="tab" href="#three" role="tab" aria-controls="Three" aria-selected="false">
+                  Uninorte to NH Collection
+                </a>
+            </li>
+          </ul>
+        </div>
+        <div class="tab-content" id="myTabContent">
+          <div class="tab-pane fade show active" id="one" role="tabpanel" aria-labelledby="one-tab">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d125346.35611273201!2d-74.88333405833684!3d10.95781086949844!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x8ef5cd8aebfe1d83%3A0x916964b712ae67b!2sAeropuerto+Ernesto+Cortissoz%2C+Aeropuerto+Internacional+Ernesto+Cortissoz%2C+Soledad%2C+Atl%C3%A1ntico!3m2!1d10.886601599999999!2d-74.776425!4m5!1s0x8ef42c6a20b68621%3A0x5c3de7e774806ad1!2sUniversidad+Del+Norte%2C+Barranquilla%2C+Atl%C3%A1ntico!3m2!1d11.0194794!2d-74.8504209!5e0!3m2!1ses!2sco!4v1565010044643!5m2!1ses!2sco?hl=en" 
+              width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>      
+          </div>
+          <div class="tab-pane fade" id="two" role="tabpanel" aria-labelledby="two-tab">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d125349.73583579439!2d-74.85969208989842!3d10.949828966289852!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x8ef5cd8aebfe1d83%3A0x916964b712ae67b!2sAeropuerto+Ernesto+Cortissoz%2C+Aeropuerto+Internacional+Ernesto+Cortissoz%2C+Soledad%2C+Atl%C3%A1ntico!3m2!1d10.886601599999999!2d-74.776425!4m5!1s0x8ef42d03438ee975%3A0x61f481e8c297ef10!2sHotel+NH+Collection+Barranquilla+Smartsuites+Royal%2C+Calle+80%2C+Barranquilla%2C+Atl%C3%A1ntico!3m2!1d11.004101!2d-74.81275!5e0!3m2!1ses!2sco!4v1565011377380!5m2!1ses!2sco?hl=en" 
+                    width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+          </div>
+          <div class="tab-pane fade" id="three" role="tabpanel" aria-labelledby="three-tab">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d31330.800562356675!2d-74.84935567830586!3d11.012339748340105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x8ef42c6a20b68621%3A0x5c3de7e774806ad1!2sUniversidad+Del+Norte%2C+Barranquilla%2C+Atl%C3%A1ntico!3m2!1d11.0194794!2d-74.8504209!4m5!1s0x8ef42d03438ee975%3A0x61f481e8c297ef10!2sHotel+NH+Collection+Barranquilla+Smartsuites+Royal%2C+Calle+80%2C+Barranquilla%2C+Atl%C3%A1ntico!3m2!1d11.004101!2d-74.81275!5e0!3m2!1ses!2sco!4v1565011429341!5m2!1ses!2sco?hl=en" 
+                    width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    </div>
+    <hr/>
+    <div class="section">
+      <div class="row">
+        <div class="col-md-6">
+        <h2 class="iccl-color">
+            About Barranquilla
+        </h2>
+        <p>
+          Special and Industrial Port of Barranquilla, capital of the Department of Atlantico, Colombia. It is located on the west bank of the Magdalena River 7.5 km from its mouth in the Caribbean Sea and it is the fourth most populous city of the country.
+        </p>
+        <p>
+          In the second half of the nineteenth century it acquires strategic and economic importance to start steam navigation through the Magdalena River, which allowed it to become the main export center of the country until the first half of the twentieth century.
+        </p>
+        </div>
+        <div class="col-md-6">
+          <div class="box">
+            <img src="img/baq1.jpg" alt="Night in the City" class="img-responsive"/>
+            <div class="detail">
+             <div class="content">
+             <h5>Barranquilla At Night</h5>
+             <p>Panoramic picture of Barranquilla activity at night</p>
+             </div>
+           </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    <hr/>
+    <div class="section">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="box">
+            <img src="img/baq3.jpg" alt="Night in the City" class="img-responsive"/>
+            <div class="detail">
+             <div class="content">
+             <h5>Mariposas Amarillas (Yellow Butterflies)</h5>
+             <p>“El bulevar de las mariposas” it is located in carrera 46 con via 40, where the sculpture “yellow butterfly” make a homage to Nobel prize, Gabriel Garcia Marquez.</p>
+             </div>
+           </div>
+          </div>
+          
+        </div>
+        <div class="col-md-6">
+          <h2 class="iccl-color">
+              
+          </h2>
+          <p>
+            Since the late nineteenth century until the 1930s, Barranquilla was the main point of entry to Colombia for thousands of immigrants and advances such as aviation, radio and telephone, as well as several sports.
+          </p>
+          <p>
+            Barranquilla’s population is around 1.2 millions inhabitants, which makes it the fourth most populous city in the country after Bogota, Medellin and Cali. The city is the core of the metropolitan area of Barranquilla, which is also which is also constituted by the municipalities of Soledad, Galapa, Malambo and Puerto Colombia.
+          </p>
+        </div>        
+      </div>
+    </div>
+    <hr/>
+    <div class="section">
+      <div class="row">
+        <div class="col-md-6">
+        <h2 class="iccl-color"></h2>
+        <p>
+          The Carnival of Barranquilla is so rich that it was awarded the titles of “National Heritage” by the Colombian Congress, on November 26th, 2001; and “Masterpiece of the Oral and Intangible Heritage of Humanity” by UNESCO (París), on November 7th, 2003.
+        </p>
+        <p>
+          During Carnival season, the city becomes the stage for a rich exhibit of folklore and tradition that comes alive in an ingenious and spontaneous festivity. The celebration which begin in January and end on Carnival Tuesday before ash Wednesday include many events in which people from all races, creeds and social conditions participate.
+        </p>
+        </div>
+        <div class="col-md-6">
+          <div class="box">
+            <img src="img/baq9.jpg" alt="CARNAVAL DE BARRANQUILLA: MASTER PIECE OF HUMANITY" class="img-responsive"/>
+            <div class="detail">
+             <div class="content">
+             <h5>Carnaval de Barranquilla: Master Piece of Humanity</h5>
+             <p>Masterpiece of the Oral and Intangible Heritage of Humanity” by UNESCO (París), on November 7th, 2003</p>
+             </div>
+           </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    <hr/>
+    <div class="section">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="box">
+          <img src="img/baq5.jpg" alt="Night in the City" class="img-responsive"/>
+          <div class="detail">
+           <div class="content">
+           <h5>Building of the Old River Municipality and Big Plaza of the Magdalena River</h5>
+           <p>Located at the 46 Avenue with Via 40, they are considered an icon of high heritage value that becomes a strategic center of cultural management.</p>
+           </div>
+         </div>
+        </div>
+        
+      </div>
+      <div class="col-md-6">
+        <h2 class="iccl-color"></h2>
+        <p>Located at the 46 Avenue with Via 40, they are considered an icon of high heritage value that becomes a strategic center of cultural management at the entrance to the River Avenue and the Historic Center. Its recovery, in 2014, means the reunion of Barranquilla with the Magdalena River and has become, along with an island where you can enjoy lunch and drinks in a comfortable, an obligatory point to visit in the Downtown Historic Center.</p>
+      </div>        
+    </div>
+  </div>
+  <hr/>
+  <div class="section">
+      <div class="row">
+        <div class="col-md-6">
+        <h2 class="iccl-color"></h2>
+        <p>The Malecón Avenida del Río, it is a cobblestone pedestrian walkway with open access. It is a site where locals and tourists can enjoy public space and green areas. People can connect with, feel and experience our Magdalena River. It is located on La Loma Island. It starts from the intersection of the extension between Olaya Herrera Avenue and Calle 6; then it goes towards the island, parallel to Magdalena River to Tablaza Bayou, where it ends at a roundabout.</p>
+        <p>
+         The New touristic Malecón has 270 meters and two levels of riverwalk in front of the Magdalena river, right over the left margin of the great fluvial artery. It is an open sky scenario with ample green areas, arborization, planters, footpaths, benches, illumination and bicycle routes. It is located behind the Puerta de Oro Convention Center.</p>
+        </div>
+        <div class="col-md-6">
+          <div class="box">
+            <img src="img/baq2.jpg" alt="Malecon Avenida del Rio & Touristic Malecón" class="img-responsive"/>
+            <div class="detail">
+             <div class="content">
+             <h5>Malecon Avenida del Rio & Touristic Malecón</h5>
+             <p>It is a cobblestone pedestrian walkway with open access. It is a site where locals and tourists can enjoy public space and green areas. People can connect with, feel and It is located on La Loma Island. </p>
+             </div>
+           </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    <hr/>
+    <div class="section">
+      <div class="row">
+      <div class="col-md-6">
+        <div class="box">
+          <img src="img/nh.jpg" alt="Malecon Avenida del Rio & Touristic Malecón" class="img-responsive"/>
+          <div class="detail">
+          <div class="content">
+          <h5>NH Collection Hotel</h5>
+          <p>Allied Hotel for ICCL 2019. It’s only 10 minutes away from Uninorte</p>
+          </div>
+        </div>
+        </div>
+      </div>      
+        <div class="col-md-6">
+        <h2 class="iccl-color">
+            Accomodation NH Collection Hotel
+        </h2>
+        <p>
+          The hotel enjoys an exceptional location in Barranquilla overlooking the Magdalena River; located in an exclusive area of the city, with easy access to the best restaurants and bars. It’s only 10 minutes away from Uninorte
+        </p>
+        <p>
+          Take advantage of the special rates that the NH Collection hotel offers to ICCL 2019 attendees with included breakfast for only $ 145,000 COP + Taxes.
+        </p>
+        <p>For more information contact the hotel: <br>Maria Alejandra Cárdenas<br><a href="mailto:ma.cardenas@nh-hotels.com">ma.cardenas@nh-hotels.com</a><br>Cel: +57 321 436 2972<br> <a href="downloads/flyer.pdf">Download flyer</a></p>
+        </div>
+      </div>
+    </div></div>
+<hr/>
+<div class="row">
+    <div class="col-sm-4"></div>
+    <div class="col-sm-4 text-center">
+        <a href="https://info.flagcounter.com/rjB2"><img src="https://s05.flagcounter.com/count/rjB2/bg_FFFFFF/txt_000000/border_FFFFFF/columns_2/maxflags_10/viewers_0/labels_0/pageviews_0/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
+    </div>
+    <div class="col-sm-4"></div>
+</div>
+<hr class="featurette-divider"></div>
+<footer class="footer mt-auto py-3 bg-dark text-white">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-sm-8 text-left">
+                    <span>For more information please contact the Organizing Committee at <a href="mailto:iccl2019@uninorte.edu.co">iccl2019@uninorte.edu.co</a></span>
+                </div>
+                <div class="col-sm-4 text-right">
+                    <a class="btn btn-success" href="mailto:iccl2019@uninorte.edu.co">Contact <i class="fa fa-envelope"></i></a>
+                </div>
+            </div>
+            
+        </div>
+    </footer>
+	<script>
+		$(document).ready(function() {
+            /*$.jnoty("ICCL 2019 it's \"just around the corner\", need directions? <a href='#divdirections'>Here</a>", {
+                sticky: true,
+                header: 'Directions!',
+                theme: 'jnoty-info',
+                icon: 'fa fa-info-circle'
+            });*/
+            $("#table-program").DataTable({
+                ajax: {
+                    url: 'data/papers.json'
+                },
+                columns: [
+                    { data: 'presentation_date' },
+                    { data: 'start' },
+                    { data: 'end', className: "hidden-xs" },
+                    { data: 'location' },
+                    { data: 'type', className: "hidden-xs" },
+                    { data: 'tittle' },
+                    { data: 'abstract', className: "hidden-xs" },
+                    { data: 'session' },
+                    { data: 'authors', className: "hidden-xs"  }
+                ]
+
+            });
+		});
+	</script>
+</body>

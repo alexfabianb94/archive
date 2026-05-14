@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name = "description" 
+      content = "Bringing together researchers and practitioners in the field of Computational Logistics to present their latest results and findings in a fruitful and open-minded environment." /> 
+    <title>ICCL 2019</title>
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+
+    <link rel="apple-touch-icon" sizes="57x57" href="img/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="img/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="img/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="manifest" href="img/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="img/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+          integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/news.css" >
+    <link rel="stylesheet" href="css/plans.css" >
+    <link rel="stylesheet" href="css/profile.css" >
+    <link rel="stylesheet" href="css/venue.css" >
+    <link rel="stylesheet" href="css/topics.css" >
+    <style>
+        .iccl-color {
+            color: #2374B6;
+        }
+    </style>
+    
+    
+	<script src="js/jnoty.min.js"></script>
+	<link rel="stylesheet" href="css/jnoty.css" >
+</head>
+<body>
+<div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 bg-white border-bottom fixed-top shadow-sm">
+  <div class="col-xs-10 col-sm-5">
+    <h5 class="my-0 mr-md-auto font-weight-normal">
+        <a href="http://iccl2019.co"><img src="img/iccl2019logo.png" class="logo" alt="ICCL 2019" /></a>
+    </h5>
+  </div>
+  <div class="col-xs-2">
+    <div class="show-xs dropdown">
+        <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" 
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <i class="fa fa-bars"></i>
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" style="background-color: white;">
+            <a class="dropdown-item text-dark" href="home.php">Home</a>
+            <a class="dropdown-item text-dark" href="dates.php">Dates</a>
+            <a class="dropdown-item text-dark" href="fees.php">Fees</a>
+            <a class="dropdown-item text-dark" href="committees.php">Committees</a>
+            <a class="dropdown-item text-dark" href="papers.php">Papers</a>
+            <a class="dropdown-item text-dark" href="keynote-speakers.php">Keynote Speakers</a>
+            <a class="dropdown-item text-dark" href="program.php">Program</a>
+            <a class="dropdown-item text-dark" href="venue-accomodations.php">Venue</a>
+            <a class="dropdown-item text-dark" href="sponsors.php">Sponsors</a>
+            <a class="dropdown-item text-dark" href="downloads.php">Downloads</a>
+        </div>
+    </div>
+  </div>
+  
+  <nav class="col-sm-7 hidden-xs" style="font-size: 10pt;">
+    <a class="p-2 text-dark" href="home.php">Home</a>
+    <a class="p-2 text-dark" href="dates.php">Dates</a>
+    <a class="p-2 text-dark" href="fees.php">Fees</a>
+    <a class="p-2 text-dark" href="committees.php">Committees</a>
+    <a class="p-2 text-dark" href="papers.php">Papers</a>
+    <a class="p-2 text-dark" href="keynote-speakers.php">Keynote Speakers</a>
+    <a class="p-2 text-dark" href="program.php">Program</a>
+    <a class="p-2 text-dark" href="venue-accomodations.php">Venue</a>
+    <a class="p-2 text-dark" href="sponsors.php">Sponsors</a>
+    <a class="p-2 text-dark" href="downloads.php">Downloads</a>
+  </nav>
+</div>
+<div id="carousel_img" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active" style="max-height: 450px; height: auto;">
+            <!--<video class="video-fluid" autoplay loop muted preload="" style="width: 100%; min-height: 450px;">
+                <source src="img/baq_vid.mov" type="video/mp4" />
+            </video>-->
+            <img src="img/unorte1.jpg" class="d-block w-100" style="width: 100%;" />
+            <div class="container">
+            <div class="carousel-caption text-center" style="text-shadow: 0 1px 2px rgba(0,0,0,.6);" >
+                <h1>ICCL 2019</h1>
+                <p class="hidden-xs">Bringing together researchers and practitioners in the field of Computational Logistics to present their latest results and findings in a fruitful and open-minded environment.</p>
+                <p class="btn btn-lg btn-primary">
+                <a style="color: #fff;" href="tutorial.php">Registration is now open, click here to learn more.</a>
+                </p>
+            </div>
+            </div>        
+        </div>
+        
+    </div>
+    <!--<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span> 
+    </a>-->
+</div>
+<div class="container marketing">
+<hr class="featurette-divider">
+<div class="row" style="margin-top: 10px;">
+    <div class="col-sm-4 text-center">
+    <p class="text-muted">Hosted by</p>
+    <a href="https://www.uninorte.edu.co">
+        <img src="img/uninorte.jpg" style="width: 75%;" />
+    </a>
+    </div>
+    <div class="col-sm-4 text-center">
+    <p class="text-muted">In association with</h5>
+    <a href="https://www.bwl.uni-hamburg.de/iwi.html">
+        <img src="img/uh.svg" style="width: 75%;" />
+    </a>
+    </div>
+    <div class="col-sm-4 text-center">
+    <p></p>
+    <a href="http://www.springer.com/it/computer-science/lncs">
+        <img src="img/lncslogo.jpeg" style="width: 70%;" />
+    </a>    
+    </div>
+</div>
+
+    <hr class="featurette-divider">
+    <h2 class="featurette-heading" id="divdirections">Program</h2>
+    <p class="text-muted">This is ICCL 2019 schedule:</p>
+    <a href="program-detailed.php" class="btn btn-primary">Search Detailed Program</a>
+    <div class="row featurette">
+      <div class="col-sm-12">
+        <div class="card mt-3 tab-card">
+          <div class="card-header tab-card-header">
+            <ul class="nav nav-tabs card-header-tabs" id="myTab" role="tablist">
+              <li class="nav-item">
+                  <a class="nav-link active show" id="one-tab" data-toggle="tab" href="#one" role="tab" aria-controls="One" aria-selected="true">
+                    Monday Sep 30th
+                  </a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" id="two-tab" data-toggle="tab" href="#two" role="tab" aria-controls="Two" aria-selected="false">
+                    Tuesday Oct 1st
+                  </a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" id="three-tab" data-toggle="tab" href="#three" role="tab" aria-controls="Three" aria-selected="false">
+                    Wednesday Oct 2nd
+                  </a>
+              </li>
+            </ul>
+          </div>
+          <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="one" role="tabpanel" aria-labelledby="one-tab">
+                <table id="table_monday" class="table table-condensed table-font" >
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th colspan="2"  style="text-align: center;">Location</th>
+                        </tr> 
+                        <tr>
+                            <th>Time</th>
+                            <th style="text-align: center; width: 50%;">Room 31K</th>
+                            <th style="text-align: center; width: 50%;">Room 21K</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>07:15-08:30</td>
+                            <td>Registration</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>08:45-09:15</td>
+                            <td><strong>OPENING SPEACH - CONFERENCE CHAIR</strong></td>
+                            <td></td>
+                        </tr>
+                        <tr class="iccl-color">
+                            <td>09:15-10:15</td>
+                            <td ><h5>JOSE HOLGUIN-VERAS</h5><p>The Quest for Sustainable Urban Logistics in an Era of Rapid (and Unpredictable) Technological and Economic Change</p></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>10:15-10:30</td>
+                            <td colspan="2" style="text-align: center"><strong>COFFEE BREAK</strong></td>
+                        </tr>
+                        <tr>
+                            <td>10:30-12:00</td>
+                            <td>
+                                <h5 class="iccl-color">Freight Transportation and Urban Logistics I</h5>
+                                <p><b>Chair: Elyn Solano</b> Location: Room 31K</p>
+                                Developments in City Logistics - The Path between Expectations and Reality
+                                <p class="text-muted">Joachim R. Daduna</p>
+                                Measuring Environmental Impact of Collaborative Urban Transport Networks: A Case Study
+                                <p class="text-muted">Andrés Muñoz-Villamizar, Elyn L. Solano-Charris, Javier Santos and Jairo R. Montoya-Torres</p>
+                                Using Advanced Information Systems to Improve Freight Efficiency: Results from a Pilot Program in Colombia
+                                <p class="text-muted">Adriana Moros-Daza, Daniela Cassandro-De La Hoz, Miguel Jaller-Martelo and Carlos D. Paternina-Arboleda</p>
+                            </td>
+                            <td>
+                                <h5 class="iccl-color">Vehicle Routing Problems I</h5>
+                                <p><b>Chair: Juan José Salazar</b> Location: Room 21K</p>
+                                Greedy Heuristic for the Vehicle Routing Problem with Time Windows, Synchronization constraints and Heterogeneous Fleet
+                                <p class="text-muted">Luísa Brandão Cavalcanti and André Bergsten Mendes1</p>
+                                Optimal solutions for the vehicle routing problem with split demands
+                                <p class="text-muted">Hipólito Hernández-Pérez and Juan-José Salazar-González</p>
+                                The one-commodity pickup and delivery vehicle routing problem: A mixed-integer linear programming approach
+                                <p class="text-muted">Juan David Palacio1, Juan Carlos Rivera1</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>12:00-14:00</td>
+                            <td colspan="2" style="text-align: center;"><strong>LAUNCH & COFFEE</strong></td>
+                        </tr>
+                        <tr>
+                            <td>14:00-15:30</td>
+                            <td>
+                                <h5 class="iccl-color">Freight Transportation and Urban Logistics II</h5>
+                                <p><b>Chair: Seckin Ozkul</b> Location: Room 31K</p>
+                                Allocation of Freight Externalities among Agents in the Supply Chain
+                                <p class="text-muted">José Holguín-Veras, Diana Ramirez-Rios, Trilce Encarnación</p>
+                                Alternative Scenarios in Analyzing Florida’s Freight Imbalance
+                                <p class="text-muted">Seckin Ozkul, Donna Davis, Abdul Pinjari, Iana Shaheen, Prachi Gupta</p>
+                                Math-heuristic for a Territory Design Problem
+                                <p class="text-muted">Mario A. Solana, Juan A. Díaz and Dolores E. Luna</p>
+                            </td>
+                            <td>
+                                <h5 class="iccl-color">Vehicle Routing Problems II</h5>
+                                <p><b>Chair: Tayeb Oulad Kouider</b> Location: Room 21K</p>
+                                A MILP Model and a GRASP Algorithm for the Helicopter Routing Problem with Multi-trips and Time Windows
+                                <p class="text-muted">André Manh˜aes Machado, Geraldo Regis Mauri, Maria Claudia Silva Boeres and Rodrigo de Alvarenga Rosa</p>
+                                Metaheuristics for Generalised Periodic Electric Vehicle Routing Problem
+                                <p class="text-muted">Tayeb Oulad Kouider, Wahiba Ramdane Cherif-Khettaf and Ammar Oulamara</p>
+                                Electric Bus Scheduling and Optimal Charging
+                                <p class="text-muted">Bilal Messaoudi and Ammar Oulamara</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>15:30-16:00</td>
+                            <td colspan="2" style="text-align: center;"><strong>COFFEE BREAK</strong></td>
+                        </tr>
+                        <tr>
+                            <td>16:00-16:30</td>
+                            <td>
+                                <h5 class="iccl-color">Freight Transportation and Urban Logistics III</h5>    
+                                <p><b>Chair: Giorgio Saibene</b> Location: Room 31K</p>
+                                Caribbean Ports, Inland Logistics, and the Panama Canal Expansion: a Mode and Port Choice Analysis
+                                <p class="text-muted">Gomez-Jacome Nicolas, Garcia-Llinas Guisselle, Paternina-Arboleda Carlos D. and Jaller-Martelo Miguel</p>
+                                Proposing solutions to create service classes and identifying groups of routine riders in bike sharing systems
+                                <p class="text-muted">Giorgio Saibene, Sabrina Gaito, Gianzarlo Manzi, Silvia Salini & Matteo Zignani</p>
+                                Forecast of bicycle traffic flows within complex public transport circuits
+                                <p class="text-muted">Giorgio Saibene</p>
+                            </td>
+                            <td>
+                                <h5 class="iccl-color">Vehicle Routing Problems III</h5>
+                                <p><b>Chair: Alex Barrales</b> Location: Room 21K</p>    
+                                A Two-Pheromone Trail Ant Colony System Approach for the Heterogeneous Vehicle Routing Problem with Time Windows, Multiple Products and Product Incompatibility
+                                <p class="text-muted">Andres Palma-Blanco, Esneyder Rafael González and Carlos D. Paternina-Arboleda</p>
+                                The Consistent Vehicle Routing Problem for a Food Distribution Firm
+                                <p class="text-muted">Hernán Lespay, Karol Sucha</p>
+                                Formulation for the problem of median tour generalized with cumulative time
+                                <p class="text-muted">Alex Barrales, Carlos Obreque</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>17:30-17:45</td>
+                            <td><strong>DAY I CLOSURE</strong></td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="tab-pane fade" id="two" role="tabpanel" aria-labelledby="two-tab">
+                <table id="table_tuesday" class="table table-condensed table-font">
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th colspan="2"  style="text-align: center;">Location</th>
+                        </tr> 
+                        <tr>
+                            <th>Time</th>
+                            <th style="text-align: center; width: 50%;">Room 31K</th>
+                            <th style="text-align: center; width: 50%;">Room 45K</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>09:00-10:00</td>
+                            <td class="iccl-color">
+                                <h5>MIGUEL JALLER</h5>
+                                <p>Changes in the Retail and Distribution Landscape: Behavioral and Logistics Modeling Implications</p>
+                            </td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>10:00-10:30</td>
+                            <td colspan="2" style="text-align: center;"><strong>COFFEE BREAK</strong></td>
+                        </tr>
+                        <tr>
+                            <td>10:30-12:00</td>
+                            <td>
+                                <h5 class="iccl-color">Maritime & Port Logistics I</h5>
+                                <p><b>Chair: Pending</b> Location: Room 31K</p>
+                                An event driven architecture for a real-time data exchange platform for the RORO transportation in the Baltic region
+                                <p class="text-muted">Karam Kharraz, Martin Leucker, Maria Ostanina</p>
+                                A Decomposed Fourier-Motzkin Elimination Framework to Derive Vessel Capacity Models
+                                <p class="text-muted">Mai L. Ajspur, Rune M. Jensen, and Kent H. Andersen</p>
+                                Estimating Discharge Time of Cargo Units – A Case of Ro-Ro Shipping
+                                <p class="text-muted">Beizhen Jia, Niels Gorm Rytter, Line Blander Reinhardt, Gauvain Haulot and Mads Bentzen Billesø</p>
+                            </td>
+                            <td>
+                                <h5 class="iccl-color">Manufacturing and Distribution I</h5>
+                                <p><b>Chair: Julia Pahl</b> Location: Room 45k</p>
+                                A facility allocation-location approach to analyze the capability of the state-owned Mexican petroleum company to respond to the closure of pipelines
+                                <p class="text-muted">Santiago-Omar Caballero-Morales and José-Luis Martínez-Flores</p>
+                                Integrated Production Lot Size and Distribution Planning with Shared Warehouses
+                                <p class="text-muted">Julia Pahl</p>
+                                Production and inventory planning in meal-kit industry
+                                <p class="text-muted">Satyaveer Chauhan</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>12:00-14:00</td>
+                            <td colspan="2" style="text-align: center;"><strong>LUNCH & COFFEE</strong></td>
+                        </tr>
+                        <tr>
+                            <td>14:00-15:30</td>
+                            <td>
+                                <h5 class="iccl-color">Maritime & Port Logistics II</h5>
+                                <p><b>Chair: Adriana Moros</b> Location: Room 31K</p>
+                                Port Community System Adoption: Game Theoretic Framework For an Emerging Economy Case Study
+                                <p class="text-muted">Adriana Moros-Daza, René Amaya-Mier, Guisselle Garcia-Llinas, and Stefan Voß</p>
+                                Towards a Semantic Intelligence to Support Seaport Governance in Environmental and Ecological Sustainability
+                                <p class="text-muted">Ana X. HALABI-ECHEVERRY, Juan Carlos VERGARA-SILVA, German A. ORTIZ-BASTO</p>
+                                Estimating the Impact of Trade Facilitation in Regional Supply Chains: a Case Study in Colombia
+                                <p class="text-muted">Carlos D. Paternina-Arboleda, Daniel Orlando Rivera</p>
+                            </td>
+                            <td>
+                                <h5 class="iccl-color">Manufacturing and Distribution II</h5>
+                                <p><b>Chair: Victor Cantillo</b> Location: Room 45K</p>
+                                A stochastic, Multi-Commodity Multi-Period Inventory-Location Problem: Modeling and Solving an Industrial Application
+                                <p class="text-muted">Mauricio Orozco-Fontalvo and Víctor Cantillo, Pablo A. Miranda</p>
+                                Emergency service in electric utility: A Case Study in Rio de Janeiro
+                                <p class="text-muted">Marcelle Cordeiro, Pedro Basilio, Eduardo Rabello, Fabrício Nunes, Lino Marujo</p>
+                                Route overlap addition metrics for order batching on a unidirectional cyclical picking line
+                                <p class="text-muted">Flora Hofmann, Stephan Visagie</p>
+                            </td>
+                        </tr>                                                                                                                     
+                        <tr>
+                            <td>15:30-15:45</td>
+                            <td colspan="2" style="text-align: center;"><strong>COFFEE BREAK</strong></td>
+                        </tr>
+                        <tr>
+                            <td>15:45-16:45</td>
+                            <td>
+                                <h5 class="iccl-color">Maritime & Port Logistics III</h5>
+                                <p><b>Chair:  Kai Brüssau</b> Location: Room 31K</p>
+                                A Note on Alternative Objectives for the Blocks Relocation Problem
+                                <p class="text-muted">Stefan Voß and Silvia Schwarze</p>
+                                Dynamic vehicle routing with time-dependent travel times: a real-world application of the Port of Hamburg
+                                <p class="text-muted">Kai Brüssau, Leonard Heilig, Stefan Voß</p>
+                            </td>
+                            <td>
+                                <h5 class="iccl-color">Manufacturing and Distribution III</h5>
+                                <p><b>Chair: Mehrdad Amirghasemi</b> Location: Room 45K</p>
+                                Developing an Effective Decomposition-Based Procedure for Solving the Quadratic Assignment Problem
+                                <p class="text-muted">Mehrdad Amirghasemi and Reza Zamani</p>
+                                Optimization of the P-Hub Median Problem via Artificial Immune Systems
+                                <p class="text-muted">Stephanie Alvarez Fernandez, Gabriel Lins e Nobrega and Daniel G. Silva</p>
+                            </td>
+                        </tr>                                                                      
+                        <tr>
+                            <td>16:45-17:45</td>
+                            <td class="iccl-color"><h5>BENJAMIN HAZEN</h5>
+                            <p>Supply Chain Management at the International-Level: How Computational Logistics Scholars
+                            Might Contribute</p></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>17:45-18:00</td>
+                            <td colspan="2" style="text-align: center;"><strong>COFFEE BREAK</strong></td>
+                        </tr>                                                                         
+                        <tr>
+                            <td>19:30-22:00</td>
+                            <td colspan="2" style="text-align: center;"><strong>CLOSURE DINNER EVENT - LOCATION TO BE DEFINED</strong></td>
+                        </tr>                        
+                    </tbody>
+                </table>
+            </div>
+            <div class="tab-pane fade" id="three" role="tabpanel" aria-labelledby="three-tab">
+                <table id="table_wednesday" class="table table-condensed table-font">
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th colspan="2"  style="text-align: center;">Location</th>
+                        </tr> 
+                        <tr>
+                            <th>Time</th>
+                            <th style="text-align: center; width: 50%;">Room 31K</th>
+                            <th style="text-align: center; width: 50%;">Room 45K</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>09:00-10:30</td>
+                            <td>
+                                <h5 class="iccl-color">Selected Topics in Decision Support Systems and ICT Tools I</h5>
+                                <p><b>Chair: Mathias Bejlegaard Madsen</b> Location: Room 31K</p>
+                                A Decision Support Tool for Energy-Optimising Railway Timetables Based on Behavioural Data
+                                <p class="text-muted">Mathias Bejlegaard Madsen, Matthias Villads Hinsch Als, Rune M. Jensen, and Sune Edinger Gram</p>
+                                Evaluation of Bottom-up and Top-down Strategies for Aggregated Forecasts: State Space Models and ARIMA Applications
+                                <p class="text-muted">Milton Soto-Ferrari, Odette Chams-Anturi, Juan P. Escorcia-Caballero, Namra Hussain, and Muhammad Khan</p>
+                                Developing Logistic Software Platforms: E-Market Place, a Case of Study
+                                <p class="text-muted">Wilson Nieto Bernal, Miguel A. Jimenez-Barros, Daladier Jabba Molinares, Carlos D. Paternina-Arboleda</p>
+                            </td>
+                            <td>
+                                <h5 class="iccl-color">Selected Topics in Decision Support Systems and ICT Tools I</h5>
+                                <p><b>Chair: Rune Møller Jensen</b> Location: 45K</p>
+                                IoT cargo weight tracking system for supply chain
+                                <p class="text-muted">Diego Gomez M.Sc., Cesar Viloria M.Sc., Steven Llerena and Nel Tinoco</p>
+                                <h5 class="iccl-color">Humanitarian Logistics I</h5>
+                                <p><b>Chair: Daniel Romero</b> Location: 45K</p>
+                                Multi-Stage Recovery Resilience: A Case Study of The Dique Canal
+                                <p class="text-muted">Daniel Romero-Rodriguez, Alex Savachkin, Weimar Ardila-Rueda, Alvaro Sierra-Altamiranda and Julio-Mario Daza-Escorcia</p>
+                                Modelling the global humanitarian supply chain and the impact of international trade policies
+                                <p class="text-muted">Oscar Pineda, Miguel Jaller y Carlos D. Paternina-Arboleda</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>10:30-11:00</td>
+                            <td colspan="2" style="text-align: center;"><strong>COFFEE BREAK</strong></td>
+                        </tr>
+                        <tr>
+                            <td>11:00-12:00</td>
+                            <td class="iccl-color">
+                                <h5>IVAN SAAVEDRA</h5>
+                                <p>Driving Profitability using Supply Chain Cost-To-Serve Analytics</p>
+                            </td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>12:00-12:30</td>
+                            <td colspan="2" style="text-align: left;"><strong>CONFERENCE CLOSURE</strong></td>
+                        </tr>                                                                                                            
+                    </tbody>
+                </table>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+  
+    </div></div>
+<hr/>
+<div class="row">
+    <div class="col-sm-4"></div>
+    <div class="col-sm-4 text-center">
+        <a href="https://info.flagcounter.com/rjB2"><img src="https://s05.flagcounter.com/count/rjB2/bg_FFFFFF/txt_000000/border_FFFFFF/columns_2/maxflags_10/viewers_0/labels_0/pageviews_0/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
+    </div>
+    <div class="col-sm-4"></div>
+</div>
+<hr class="featurette-divider"></div>
+<footer class="footer mt-auto py-3 bg-dark text-white">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-sm-8 text-left">
+                    <span>For more information please contact the Organizing Committee at <a href="mailto:iccl2019@uninorte.edu.co">iccl2019@uninorte.edu.co</a></span>
+                </div>
+                <div class="col-sm-4 text-right">
+                    <a class="btn btn-success" href="mailto:iccl2019@uninorte.edu.co">Contact <i class="fa fa-envelope"></i></a>
+                </div>
+            </div>
+            
+        </div>
+    </footer>
+	<script>
+		$(document).ready(function() {
+            /*$.jnoty("ICCL 2019 it's \"just around the corner\", need directions? <a href='#divdirections'>Here</a>", {
+                sticky: true,
+                header: 'Directions!',
+                theme: 'jnoty-info',
+                icon: 'fa fa-info-circle'
+            });*/
+            $("#table-program").DataTable({
+                ajax: {
+                    url: 'data/papers.json'
+                },
+                columns: [
+                    { data: 'presentation_date' },
+                    { data: 'start' },
+                    { data: 'end', className: "hidden-xs" },
+                    { data: 'location' },
+                    { data: 'type', className: "hidden-xs" },
+                    { data: 'tittle' },
+                    { data: 'abstract', className: "hidden-xs" },
+                    { data: 'session' },
+                    { data: 'authors', className: "hidden-xs"  }
+                ]
+
+            });
+		});
+	</script>
+</body>

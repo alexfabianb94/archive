@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name = "description" 
+      content = "Bringing together researchers and practitioners in the field of Computational Logistics to present their latest results and findings in a fruitful and open-minded environment." /> 
+    <title>ICCL 2019</title>
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+
+    <link rel="apple-touch-icon" sizes="57x57" href="img/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="img/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="img/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="manifest" href="img/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="img/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+          integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/news.css" >
+    <link rel="stylesheet" href="css/plans.css" >
+    <link rel="stylesheet" href="css/profile.css" >
+    <link rel="stylesheet" href="css/venue.css" >
+    <link rel="stylesheet" href="css/topics.css" >
+    <style>
+        .iccl-color {
+            color: #2374B6;
+        }
+    </style>
+    
+    
+	<script src="js/jnoty.min.js"></script>
+	<link rel="stylesheet" href="css/jnoty.css" >
+</head>
+<body>
+<div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 bg-white border-bottom fixed-top shadow-sm">
+  <div class="col-xs-10 col-sm-5">
+    <h5 class="my-0 mr-md-auto font-weight-normal">
+        <a href="http://iccl2019.co"><img src="img/iccl2019logo.png" class="logo" alt="ICCL 2019" /></a>
+    </h5>
+  </div>
+  <div class="col-xs-2">
+    <div class="show-xs dropdown">
+        <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" 
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <i class="fa fa-bars"></i>
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" style="background-color: white;">
+            <a class="dropdown-item text-dark" href="home.php">Home</a>
+            <a class="dropdown-item text-dark" href="dates.php">Dates</a>
+            <a class="dropdown-item text-dark" href="fees.php">Fees</a>
+            <a class="dropdown-item text-dark" href="committees.php">Committees</a>
+            <a class="dropdown-item text-dark" href="papers.php">Papers</a>
+            <a class="dropdown-item text-dark" href="keynote-speakers.php">Keynote Speakers</a>
+            <a class="dropdown-item text-dark" href="program.php">Program</a>
+            <a class="dropdown-item text-dark" href="venue-accomodations.php">Venue</a>
+            <a class="dropdown-item text-dark" href="sponsors.php">Sponsors</a>
+            <a class="dropdown-item text-dark" href="downloads.php">Downloads</a>
+        </div>
+    </div>
+  </div>
+  
+  <nav class="col-sm-7 hidden-xs" style="font-size: 10pt;">
+    <a class="p-2 text-dark" href="home.php">Home</a>
+    <a class="p-2 text-dark" href="dates.php">Dates</a>
+    <a class="p-2 text-dark" href="fees.php">Fees</a>
+    <a class="p-2 text-dark" href="committees.php">Committees</a>
+    <a class="p-2 text-dark" href="papers.php">Papers</a>
+    <a class="p-2 text-dark" href="keynote-speakers.php">Keynote Speakers</a>
+    <a class="p-2 text-dark" href="program.php">Program</a>
+    <a class="p-2 text-dark" href="venue-accomodations.php">Venue</a>
+    <a class="p-2 text-dark" href="sponsors.php">Sponsors</a>
+    <a class="p-2 text-dark" href="downloads.php">Downloads</a>
+  </nav>
+</div>
+<div id="carousel_img" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active" style="max-height: 450px; height: auto;">
+            <!--<video class="video-fluid" autoplay loop muted preload="" style="width: 100%; min-height: 450px;">
+                <source src="img/baq_vid.mov" type="video/mp4" />
+            </video>-->
+            <img src="img/unorte1.jpg" class="d-block w-100" style="width: 100%;" />
+            <div class="container">
+            <div class="carousel-caption text-center" style="text-shadow: 0 1px 2px rgba(0,0,0,.6);" >
+                <h1>ICCL 2019</h1>
+                <p class="hidden-xs">Bringing together researchers and practitioners in the field of Computational Logistics to present their latest results and findings in a fruitful and open-minded environment.</p>
+                <p class="btn btn-lg btn-primary">
+                <a style="color: #fff;" href="tutorial.php">Registration is now open, click here to learn more.</a>
+                </p>
+            </div>
+            </div>        
+        </div>
+        
+    </div>
+    <!--<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span> 
+    </a>-->
+</div>
+<div class="container marketing">
+<hr class="featurette-divider">
+<div class="row" style="margin-top: 10px;">
+    <div class="col-sm-4 text-center">
+    <p class="text-muted">Hosted by</p>
+    <a href="https://www.uninorte.edu.co">
+        <img src="img/uninorte.jpg" style="width: 75%;" />
+    </a>
+    </div>
+    <div class="col-sm-4 text-center">
+    <p class="text-muted">In association with</h5>
+    <a href="https://www.bwl.uni-hamburg.de/iwi.html">
+        <img src="img/uh.svg" style="width: 75%;" />
+    </a>
+    </div>
+    <div class="col-sm-4 text-center">
+    <p></p>
+    <a href="http://www.springer.com/it/computer-science/lncs">
+        <img src="img/lncslogo.jpeg" style="width: 70%;" />
+    </a>    
+    </div>
+</div>
+
+<div class="row" style="margin-top: 50px; margin-bottom: 50px;">
+   <div class="col-sm-4 text-center">
+       <p class="text-muted">Sponsored by</p>
+       <a href="https://www.unisimon.edu.co/">
+        <img src="img/unisimon.png" alt="Universidad Simón Bolivar" style="width: 100%;" />
+       </a>
+   </div>
+   <div class="col-sm-4"></div>
+   <div class="col-sm-4"></div>
+</div>
+<hr class="featurette-divider" />
+                <div class="row featurette">
+                    <h2 class="featurette-heading iccl-color">Opportunities for Trade Shows and Sponsorships</h2>
+                    <div class="row" style="margin-top: 10px;">
+                        <div class="col-sm-6">
+                        <p>
+                            The exhibition corridor at ICCL 2019 is a privileged destination for technological solutions and demonstrations of products and services in the logistics area. This space will count on the affluence of professionals, academics, entrepreneurs, businessmen and decision makers from all the spectrum of specialties in the line of computational logistics from all over the world.</p>                            
+                        </div>
+                        <div class="col-sm-6">
+                        <p>
+                            The wide exhibition corridor is located at the Universidad del Norte. Simultaneous keynote lectures, coffee breaks, demonstrations and receptions will be offered here where attendees can meet and discover the latest in computer technology and innovation.
+                            <br/>Get to know our options:
+                            <ul>
+                                <li>Trade Show</li>
+                                <li>Sponsor the event</li>
+                            </ul>
+                        </p>
+                        </div>
+                    </div>
+                </div>
+                <hr class="featurette-divider mb-5" />
+                <div class="row featurette">
+                    <div class="col-sm-6">
+                        <h2 class="featurette-heading iccl-color mb-5">Trade Show Opportunities</h2>
+                        <ul>
+                            <li><b>Local, regional, national and international positioning.</b> The ICCL will be
+                            assisted by professionals, academics and entrepreneurs from all over the world.</li>
+                            <li><b>Several days to promote your company.</b> The event has a duration of three
+                            days, which allows adequate exhibition time and high return on investment.</li>
+                            <li><b>Your competitors and colleagues will be there.</b> The ICCL brings together a
+                            large number of large, medium, small and micro companies in the area of
+                            services and logistics products.</li>
+                            <li><b>Advertising Coverage.</b> The Universidad del Norte and the ICCL organization
+                            have an advertising force that is consolidated through campaigns in social
+                            networks, mail, websites, press, and other means of content distribution.</li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6">
+                        <h2 class="featurette-heading iccl-color mb-5">Opportunities to Sponsor the Event</h2>
+                        <p>
+                        Sponsoring ICCL 2019 is the perfect opportunity to demonstrate your
+                        organization's commitment to technological advancement and
+                        showcase your company's name to hundreds of professionals around
+                        the world.</p>
+                        <p>Sponsorship allows you to develop brand recognition, and is an easy
+                        and cost-effective way to get your message across to a qualified
+                        audience of professionals looking for business solutions in the area of
+                        computational logistics.
+                        </p>
+                        <div class="alert alert-primary lead text-center" role="alert"><b>
+                        Get to know and take advantage of the sponsorship options we have for companies..</b>
+                        </div>
+                    </div>
+                </div>
+                <hr class="featurette-divider mb-5" />
+                <h2 class="featurette-heading iccl-color mb-5">Sponsorship Benefits</h2>
+                <div class="row white featurette">
+                    
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                            <ul class="pricing p-red">
+                                <li>
+                                    <big>Gold</big>
+                                </li>
+                                <li>12 VIP tickets for the event. 12 places to attend the welcome cocktail. 12 places for the closing ceremony
+                                of the event. 3 places to attend the inaugural lunch of the event</li>
+                                <li>Brochure insert and/or company POP material in Welcome Kit (provided by sponsor).</li>
+                                <li>Logo on the unimarca banners located in the auditoriums where the magisterial conferences will take place.</li>
+                                <li>Space to place 2 banners (80x180) of the company in the corridors or halls where presentations of the abstracts will take place (provided by the sponsor).</li>
+                                <li>Transmission of 1 video of 30 seconds, once a day during the talks in the main auditorium (video provided by the sponsor).</li>
+                                <li>Logo as main sponsor on the event website.</li>
+                                <li>3 Mention in Social Networks as one of the big sponsors.</li>
+                                <li>Logo on the advertising pieces of the event according to the category of sponsorship</li>
+                                <li>
+                                    <span>Investment</span>
+                                    <h3>$ 30,000,000 COP</h3>
+                                </li>
+                            </ul>
+                    </div>
+					<div class="col-xs-12 col-sm-6 col-md-4">
+							<ul class="pricing p-yel">
+								<li>
+									<big>Silver</big>
+								</li>
+                                <li>7 VIP tickets for the event (including lunches and coffee breaks).
+                                7 places for the welcome cocktail and for the closing event</li>
+                                <li>Brochure insert and/or company POP material in Welcome Kit (provided by sponsor)</li>
+                                <li>Logo on 1 banner in main auditorium.</li>
+                                <li>Space to put 1 banner (80x180) of the company in the corridors or
+                                hall where the presentation of the abstracts will take place (provided by sponsor)</li>
+                                <li>Logo as sponsor on event's website and on advertising pieces as a sponsoring company</li>
+                                <li style="height: 305px;"></li>
+                                <li>
+                                    <span>Investment</span>
+									<h3>$ 20,000,000 COP</h3>
+								</li>
+							</ul>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-4">
+							<ul class="pricing p-green">
+								<li>
+									<big>Bronze</big>
+								</li>
+								<li>3 VIP tickets for the event (including lunches and coffee breakes). 3 tickets for the welcome cocktail</li>
+                                <li>Logo on the event's website</li>
+                                <li>Logo on advertising pieces as a sponsoring company.</li>
+                                <li style="height: 485px;"></li>                                
+                                <li>
+                                    <span>Investment</span>
+									<h3>$ 10,000,000 COP</h3>
+								</li>
+							</ul>
+					</div>
+
+            </div><!-- /row -->
+            <hr class="featurette-divider mb-5" />
+            <div class="row white featurette">
+                <h2 class="featurette-heading iccl-color mb-5">Other Sponsorship Options</h2>
+                <ul>
+                    <li>Point of registration $8,000,000, the company can have brand visibility at the point of registration (banner,
+                    POP material, among others, endorsed by the university and produced by the sponsor and 2 entries).</li>
+                    <li>Sponsorship of the welcome cocktail $8,000,000. The announcement will be made that the cocktail is
+                    provided by the company and where the event takes place the company can put on the tables POP
+                    material, souvenir and can put 2 banners only during the cocktail and 2 tickets to the event.</li>
+                    <li>Lunch for 200 attendees for 1 day of event $8.000.000. It will be announced that the lunch is provided by
+                    the company and in the restaurants where the lunch will be provided the company can put on the tables
+                    POP material, souvenir and can put 2 banners only during lunch and 2 tickets to the event.</li>
+                    <li>Sponsorship welcome bag $ 5,000,000 COP (1 ticket and space for the company to include POP material in the
+                    bag).</li>
+                    <li>Inaugural Lunch of the event offered to international guests, speakers and organizers $5,0000,000 (space to
+                    place 2 banners in the restaurant where the lunch is held and 1 entrance).</li>
+                    <li>Sponsorship for notebooks given to attendees $4,000,000. In the notebook must be the logo of the event,
+                    logo of the Universidad del Norte, University of Hamburg, the logos of the main sponsors and the logo of the
+                    company that finances them (the size of the logos is defined by the University), the company will have 1
+                    ticket to the event.</li>
+                    <li>Sponsorship of the international conference ticket $3.500.000, the company can give the speaker a
+                    welcome gift and will have 1 ticket to the event.</li>
+                </ul>
+            </div>
+            <hr class="featurette-divider mb-5" />
+            <h2 class="featurette-heading iccl-color mb-5">
+            Contact for Sponsors and Trade Shows
+            </h2>
+            <div class="row white featurette">
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-header text-center">
+                            <h5 class="card-title">Laura Valdivieso</h5>
+                        </div>                    
+                        <div class="card-body text-center">
+                            <p class="card-text">Open Programs Coordinator<br/>Continuing Education Center<br/><i class="fa fa-phone"></i> (575) 3509509 Ext. 4352</p>
+                            <a href="mailto:lvaldivieso@uninorte.edu.co" class="btn btn-primary">
+                                <i class="fa fa-envelope"></i> lvaldivieso@uninorte.edu.co
+                            </a>
+                        </div>
+                    </div>                
+                </div>
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-header text-center">
+                            <h5 class="card-title">Carlos Paternina, PhD</h5>
+                        </div>                    
+                        <div class="card-body text-center">
+                            <p class="card-text">Full Time Professor<br/>Industrial Engineering Deparment<br/><i class="fa fa-phone"></i> (575) 3509509 Ext. 4380</p>
+                            <a href="mailto:cpaterni@uninorte.edu.co" class="btn btn-primary">
+                                <i class="fa fa-envelope"></i> cpaterni@uninorte.edu.co
+                            </a>
+                    </div>                
+                </div>
+            </div>
+        </div>
+        <hr class="featurette-divider mt-5 mb-5" />
+            
+</div>
+<hr/>
+<div class="row">
+    <div class="col-sm-4"></div>
+    <div class="col-sm-4 text-center">
+        <a href="https://info.flagcounter.com/rjB2"><img src="https://s05.flagcounter.com/count/rjB2/bg_FFFFFF/txt_000000/border_FFFFFF/columns_2/maxflags_10/viewers_0/labels_0/pageviews_0/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
+    </div>
+    <div class="col-sm-4"></div>
+</div>
+<hr class="featurette-divider"></div>
+<footer class="footer mt-auto py-3 bg-dark text-white">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-sm-8 text-left">
+                    <span>For more information please contact the Organizing Committee at <a href="mailto:iccl2019@uninorte.edu.co">iccl2019@uninorte.edu.co</a></span>
+                </div>
+                <div class="col-sm-4 text-right">
+                    <a class="btn btn-success" href="mailto:iccl2019@uninorte.edu.co">Contact <i class="fa fa-envelope"></i></a>
+                </div>
+            </div>
+            
+        </div>
+    </footer>
+	<script>
+		$(document).ready(function() {
+            /*$.jnoty("ICCL 2019 it's \"just around the corner\", need directions? <a href='#divdirections'>Here</a>", {
+                sticky: true,
+                header: 'Directions!',
+                theme: 'jnoty-info',
+                icon: 'fa fa-info-circle'
+            });*/
+            $("#table-program").DataTable({
+                ajax: {
+                    url: 'data/papers.json'
+                },
+                columns: [
+                    { data: 'presentation_date' },
+                    { data: 'start' },
+                    { data: 'end', className: "hidden-xs" },
+                    { data: 'location' },
+                    { data: 'type', className: "hidden-xs" },
+                    { data: 'tittle' },
+                    { data: 'abstract', className: "hidden-xs" },
+                    { data: 'session' },
+                    { data: 'authors', className: "hidden-xs"  }
+                ]
+
+            });
+		});
+	</script>
+</body>

@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name = "description" 
+      content = "Bringing together researchers and practitioners in the field of Computational Logistics to present their latest results and findings in a fruitful and open-minded environment." /> 
+    <title>ICCL 2019</title>
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+
+    <link rel="apple-touch-icon" sizes="57x57" href="img/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="img/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="img/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="manifest" href="img/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="img/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+          integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/news.css" >
+    <link rel="stylesheet" href="css/plans.css" >
+    <link rel="stylesheet" href="css/profile.css" >
+    <link rel="stylesheet" href="css/venue.css" >
+    <link rel="stylesheet" href="css/topics.css" >
+    <style>
+        .iccl-color {
+            color: #2374B6;
+        }
+    </style>
+    
+    
+	<script src="js/jnoty.min.js"></script>
+	<link rel="stylesheet" href="css/jnoty.css" >
+</head>
+<body>
+<div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 bg-white border-bottom fixed-top shadow-sm">
+  <div class="col-xs-10 col-sm-5">
+    <h5 class="my-0 mr-md-auto font-weight-normal">
+        <a href="http://iccl2019.co"><img src="img/iccl2019logo.png" class="logo" alt="ICCL 2019" /></a>
+    </h5>
+  </div>
+  <div class="col-xs-2">
+    <div class="show-xs dropdown">
+        <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" 
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <i class="fa fa-bars"></i>
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" style="background-color: white;">
+            <a class="dropdown-item text-dark" href="home.php">Home</a>
+            <a class="dropdown-item text-dark" href="dates.php">Dates</a>
+            <a class="dropdown-item text-dark" href="fees.php">Fees</a>
+            <a class="dropdown-item text-dark" href="committees.php">Committees</a>
+            <a class="dropdown-item text-dark" href="papers.php">Papers</a>
+            <a class="dropdown-item text-dark" href="keynote-speakers.php">Keynote Speakers</a>
+            <a class="dropdown-item text-dark" href="program.php">Program</a>
+            <a class="dropdown-item text-dark" href="venue-accomodations.php">Venue</a>
+            <a class="dropdown-item text-dark" href="sponsors.php">Sponsors</a>
+            <a class="dropdown-item text-dark" href="downloads.php">Downloads</a>
+        </div>
+    </div>
+  </div>
+  
+  <nav class="col-sm-7 hidden-xs" style="font-size: 10pt;">
+    <a class="p-2 text-dark" href="home.php">Home</a>
+    <a class="p-2 text-dark" href="dates.php">Dates</a>
+    <a class="p-2 text-dark" href="fees.php">Fees</a>
+    <a class="p-2 text-dark" href="committees.php">Committees</a>
+    <a class="p-2 text-dark" href="papers.php">Papers</a>
+    <a class="p-2 text-dark" href="keynote-speakers.php">Keynote Speakers</a>
+    <a class="p-2 text-dark" href="program.php">Program</a>
+    <a class="p-2 text-dark" href="venue-accomodations.php">Venue</a>
+    <a class="p-2 text-dark" href="sponsors.php">Sponsors</a>
+    <a class="p-2 text-dark" href="downloads.php">Downloads</a>
+  </nav>
+</div>
+<div id="carousel_img" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active" style="max-height: 450px; height: auto;">
+            <!--<video class="video-fluid" autoplay loop muted preload="" style="width: 100%; min-height: 450px;">
+                <source src="img/baq_vid.mov" type="video/mp4" />
+            </video>-->
+            <img src="img/unorte1.jpg" class="d-block w-100" style="width: 100%;" />
+            <div class="container">
+            <div class="carousel-caption text-center" style="text-shadow: 0 1px 2px rgba(0,0,0,.6);" >
+                <h1>ICCL 2019</h1>
+                <p class="hidden-xs">Bringing together researchers and practitioners in the field of Computational Logistics to present their latest results and findings in a fruitful and open-minded environment.</p>
+                <p class="btn btn-lg btn-primary">
+                <a style="color: #fff;" href="tutorial.php">Registration is now open, click here to learn more.</a>
+                </p>
+            </div>
+            </div>        
+        </div>
+        
+    </div>
+    <!--<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span> 
+    </a>-->
+</div>
+<div class="container marketing">
+<hr class="featurette-divider">
+<div class="row" style="margin-top: 10px;">
+    <div class="col-sm-4 text-center">
+    <p class="text-muted">Hosted by</p>
+    <a href="https://www.uninorte.edu.co">
+        <img src="img/uninorte.jpg" style="width: 75%;" />
+    </a>
+    </div>
+    <div class="col-sm-4 text-center">
+    <p class="text-muted">In association with</h5>
+    <a href="https://www.bwl.uni-hamburg.de/iwi.html">
+        <img src="img/uh.svg" style="width: 75%;" />
+    </a>
+    </div>
+    <div class="col-sm-4 text-center">
+    <p></p>
+    <a href="http://www.springer.com/it/computer-science/lncs">
+        <img src="img/lncslogo.jpeg" style="width: 70%;" />
+    </a>    
+    </div>
+</div>
+<hr class="featurette-divider" />
+    <div class="row featurette">
+        <h2 class="featurette-heading iccl-color">Call for Papers</h2>
+        <div class="lead">
+            <small class="text-muted">Submission deadline: <span class="text-danger font-weight-bold">June 30, 2019*</span></small><br />
+            <p class="text-justify">Authors are kindly invited to submit their contributions in the area of logistics management, operations, control, and information systems, relevant to all types of logistics activities and on any mode of transportation, with a particular focus on practical cases providing insight and real-world experience.</p>
+
+            <p>Submissions are invited in one of the two following forms:<br /><br />
+            (a) Full papers for publication in Springer's Lecture Notes in Computer Science (LNCS)<br />
+            (b) Abstracts for presentation only<br />
+            <br />All papers should be submitted electronically following the instructions on this page and by following this <a class="text-center" href="https://easychair.org/conferences/?conf=iccl2019">link.</a></p>
+            
+            <br /><span class="font-weight-bold">Full paper submissions</span><br />
+            <p class="text-justify">Full papers should have a length of at most 15 pages following the LNCS style files. For a paper to be included in this volume, it should be presented at the conference by one of the authors. The style files for LNCS submissions can be found <a href="https://www.springer.com/la/computer-science/lncs/conference-proceedings-guidelines">here.</a> This site contains all relevant style files for CS Proceedings and Multiauthor Volumes as well as the Springer copyright form.  If you have any questions concerning the style files, please consult the corresponding technical instructions on the website. Additionally, we kindly ask you to have a look at the "Checklist of items to be sent to the volume editor".
+            The authors are required to use the submission form available <a href="https://easychair.org/conferences/?conf=iccl2019">here</a> to:</p>
+            <ul>
+                <li>Upload the pdf file of the 15-page regular paper in <a href="http://www.springer.de/comp/lncs/authors.html">LNCS style</a> on the easychair platform.<br /></li>
+                <li>
+                    Paste in the Abstract textbox a 1-page abstract (maximum 3000 characters, including spaces) to be included in the abstracts booklet which will be distributed during the conference. At most 4 references can be included. Mathematical formulas can be included in LaTeX notation.<br />
+                </li>
+            </ul>
+            <p class="text-justify">Authors should consult Springer’s authors’ guidelines and use their proceedings templates, either for LaTeX or for Word, for the 
+            preparation of their papers in the following <a href="https://www.springer.com/la/computer-science/lncs/conference-proceedings-guidelines">link</a>. Springer encourages authors to include their ORCIDs in their papers. In addition, the corresponding author of each paper, acting on behalf of all of the authors of that paper, must complete and sign a Consent-to-Publish form (see <a href="downloads.php">downloads</a> section). The corresponding author signing the copyright form should match the corresponding author marked on the paper. Once the files have been sent to Springer, changes relating to the authorship of the papers cannot be made.</p><br /
+            <br /><span class="font-weight-bold">Abstracts, presentation only</span><br />
+            <p class="text-justify">Submitted abstracts should not exceed one page (maximum 3000 characters, including spaces). At most 4 references can be included. Mathematical formulas can be included in LaTeX notation. Accepted Abstracts should be presented at the conference by one of the authors.
+            To submit an abstract, please go <a href="https://easychair.org/conferences/?conf=iccl2019">here</a> and paste the text in the abstract textbox of the submission form. Do not upload a pdf file of the abstract.
+            Accepted abstracts will appear in the abstracts booklet which will be distributed during the conference.</p>
+            <p class="text-justify">A special issue of the International Journal of Logistics Systems and Management by Inderscience will be edited in Smart Port Logistics, from selected invited papers from the conference and from an open CFP.</p>
+            <p class="font-weight-bold">Please note that a participant can present only one contribution (full paper or abstract).</p><br/>
+            <p class="font-weight-bold">Topics to be covered include (but are not limited to):</p>
+            <ul style="columns: 4">
+                <li>Facility (re-)layout decision problems</li>
+                <li>Routing problems</li>
+                <li>Emergency logistics</li>
+                <li>Reverse logistics</li>
+                <li>Crowd logistics</li>
+                <li>Freight transportation</li>
+                <li>Green supply chain</li>
+                <li>Metropolitan/city logistics</li>
+                <li>Smart Agro-Logistics</li> 
+                <li>Uncertainty modelling in planning and control</li>
+                <li>Large-scale evolutionary optimization to logistics</li>
+                <li>Multi-agent system in logistics</li>
+                <li>Machine learning applications in supply chain</li>
+                <li>Internet of things on smart logistics</li>
+                <li>Applications of Blockchain</li>
+                <li>Last generation ICT networks</li>
+                <li>Port smart logistics</li>
+                <li>ICT for port governance</li>
+                <li>Computational issues in foreign trade supply chains</li>
+                <li>ICT systems for port communities</li>
+            </ul>
+            <p>* Submission date extended from June 15 to June 30.</p>
+        </div>
+    </div><hr class="featurette-divider" /></div>
+<hr/>
+<div class="row">
+    <div class="col-sm-4"></div>
+    <div class="col-sm-4 text-center">
+        <a href="https://info.flagcounter.com/rjB2"><img src="https://s05.flagcounter.com/count/rjB2/bg_FFFFFF/txt_000000/border_FFFFFF/columns_2/maxflags_10/viewers_0/labels_0/pageviews_0/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
+    </div>
+    <div class="col-sm-4"></div>
+</div>
+<hr class="featurette-divider"></div>
+<footer class="footer mt-auto py-3 bg-dark text-white">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-sm-8 text-left">
+                    <span>For more information please contact the Organizing Committee at <a href="mailto:iccl2019@uninorte.edu.co">iccl2019@uninorte.edu.co</a></span>
+                </div>
+                <div class="col-sm-4 text-right">
+                    <a class="btn btn-success" href="mailto:iccl2019@uninorte.edu.co">Contact <i class="fa fa-envelope"></i></a>
+                </div>
+            </div>
+            
+        </div>
+    </footer>
+	<script>
+		$(document).ready(function() {
+            /*$.jnoty("ICCL 2019 it's \"just around the corner\", need directions? <a href='#divdirections'>Here</a>", {
+                sticky: true,
+                header: 'Directions!',
+                theme: 'jnoty-info',
+                icon: 'fa fa-info-circle'
+            });*/
+            $("#table-program").DataTable({
+                ajax: {
+                    url: 'data/papers.json'
+                },
+                columns: [
+                    { data: 'presentation_date' },
+                    { data: 'start' },
+                    { data: 'end', className: "hidden-xs" },
+                    { data: 'location' },
+                    { data: 'type', className: "hidden-xs" },
+                    { data: 'tittle' },
+                    { data: 'abstract', className: "hidden-xs" },
+                    { data: 'session' },
+                    { data: 'authors', className: "hidden-xs"  }
+                ]
+
+            });
+		});
+	</script>
+</body>

@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name = "description" 
+      content = "Bringing together researchers and practitioners in the field of Computational Logistics to present their latest results and findings in a fruitful and open-minded environment." /> 
+    <title>ICCL 2019</title>
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+
+    <link rel="apple-touch-icon" sizes="57x57" href="img/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="img/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="img/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="manifest" href="img/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="img/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+          integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/news.css" >
+    <link rel="stylesheet" href="css/plans.css" >
+    <link rel="stylesheet" href="css/profile.css" >
+    <link rel="stylesheet" href="css/venue.css" >
+    <link rel="stylesheet" href="css/topics.css" >
+    <style>
+        .iccl-color {
+            color: #2374B6;
+        }
+    </style>
+    
+    
+	<script src="js/jnoty.min.js"></script>
+	<link rel="stylesheet" href="css/jnoty.css" >
+</head>
+<body>
+<div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 bg-white border-bottom fixed-top shadow-sm">
+  <div class="col-xs-10 col-sm-5">
+    <h5 class="my-0 mr-md-auto font-weight-normal">
+        <a href="http://iccl2019.co"><img src="img/iccl2019logo.png" class="logo" alt="ICCL 2019" /></a>
+    </h5>
+  </div>
+  <div class="col-xs-2">
+    <div class="show-xs dropdown">
+        <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" 
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <i class="fa fa-bars"></i>
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" style="background-color: white;">
+            <a class="dropdown-item text-dark" href="home.php">Home</a>
+            <a class="dropdown-item text-dark" href="dates.php">Dates</a>
+            <a class="dropdown-item text-dark" href="fees.php">Fees</a>
+            <a class="dropdown-item text-dark" href="committees.php">Committees</a>
+            <a class="dropdown-item text-dark" href="papers.php">Papers</a>
+            <a class="dropdown-item text-dark" href="keynote-speakers.php">Keynote Speakers</a>
+            <a class="dropdown-item text-dark" href="program.php">Program</a>
+            <a class="dropdown-item text-dark" href="venue-accomodations.php">Venue</a>
+            <a class="dropdown-item text-dark" href="sponsors.php">Sponsors</a>
+            <a class="dropdown-item text-dark" href="downloads.php">Downloads</a>
+        </div>
+    </div>
+  </div>
+  
+  <nav class="col-sm-7 hidden-xs" style="font-size: 10pt;">
+    <a class="p-2 text-dark" href="home.php">Home</a>
+    <a class="p-2 text-dark" href="dates.php">Dates</a>
+    <a class="p-2 text-dark" href="fees.php">Fees</a>
+    <a class="p-2 text-dark" href="committees.php">Committees</a>
+    <a class="p-2 text-dark" href="papers.php">Papers</a>
+    <a class="p-2 text-dark" href="keynote-speakers.php">Keynote Speakers</a>
+    <a class="p-2 text-dark" href="program.php">Program</a>
+    <a class="p-2 text-dark" href="venue-accomodations.php">Venue</a>
+    <a class="p-2 text-dark" href="sponsors.php">Sponsors</a>
+    <a class="p-2 text-dark" href="downloads.php">Downloads</a>
+  </nav>
+</div>
+<div id="carousel_img" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active" style="max-height: 450px; height: auto;">
+            <!--<video class="video-fluid" autoplay loop muted preload="" style="width: 100%; min-height: 450px;">
+                <source src="img/baq_vid.mov" type="video/mp4" />
+            </video>-->
+            <img src="img/unorte1.jpg" class="d-block w-100" style="width: 100%;" />
+            <div class="container">
+            <div class="carousel-caption text-center" style="text-shadow: 0 1px 2px rgba(0,0,0,.6);" >
+                <h1>ICCL 2019</h1>
+                <p class="hidden-xs">Bringing together researchers and practitioners in the field of Computational Logistics to present their latest results and findings in a fruitful and open-minded environment.</p>
+                <p class="btn btn-lg btn-primary">
+                <a style="color: #fff;" href="tutorial.php">Registration is now open, click here to learn more.</a>
+                </p>
+            </div>
+            </div>        
+        </div>
+        
+    </div>
+    <!--<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span> 
+    </a>-->
+</div>
+<div class="container marketing">
+<hr class="featurette-divider">
+<div class="row" style="margin-top: 10px;">
+    <div class="col-sm-4 text-center">
+    <p class="text-muted">Hosted by</p>
+    <a href="https://www.uninorte.edu.co">
+        <img src="img/uninorte.jpg" style="width: 75%;" />
+    </a>
+    </div>
+    <div class="col-sm-4 text-center">
+    <p class="text-muted">In association with</h5>
+    <a href="https://www.bwl.uni-hamburg.de/iwi.html">
+        <img src="img/uh.svg" style="width: 75%;" />
+    </a>
+    </div>
+    <div class="col-sm-4 text-center">
+    <p></p>
+    <a href="http://www.springer.com/it/computer-science/lncs">
+        <img src="img/lncslogo.jpeg" style="width: 70%;" />
+    </a>    
+    </div>
+</div>
+<hr class="featurette-divider" />
+    <div class="row featurette">
+        <div class="col-sm-12">
+            <h2 class="featurette-heading iccl-color">Important Dates</h2>
+            <div class="lead">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th class="w-auto">
+                            Date
+                        </th>
+                        <th>
+                            Event
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="text-danger font-weight-bold">June 30, 2019</td>
+                        <td>New Submission Deadline</td>
+                    </tr>
+                    <tr>
+                        <td class="text-danger font-weight-bold" style="text-decoration: line-through;">June 15, 2019</td>
+                        <td style="text-decoration: line-through;">Submission Deadline</td>
+                    </tr>
+                    <tr>
+                        <td>July 22, 2019</td>
+                        <td>Notifications of Acceptance</td>
+                    </tr>
+                    <tr>
+                        <td>August 9, 2019</td>
+                        <td>Early Registration</td>
+                    </tr>
+                    <tr>
+                        <td>September 30 to October 2, 2019</td>
+                        <td>Conference Days</td>
+                    </tr>
+                </tbody>
+            </table>
+            </div>
+        </div>
+        
+    </div><hr class="featurette-divider"></div>
+<hr/>
+<div class="row">
+    <div class="col-sm-4"></div>
+    <div class="col-sm-4 text-center">
+        <a href="https://info.flagcounter.com/rjB2"><img src="https://s05.flagcounter.com/count/rjB2/bg_FFFFFF/txt_000000/border_FFFFFF/columns_2/maxflags_10/viewers_0/labels_0/pageviews_0/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
+    </div>
+    <div class="col-sm-4"></div>
+</div>
+<hr class="featurette-divider"></div>
+<footer class="footer mt-auto py-3 bg-dark text-white">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-sm-8 text-left">
+                    <span>For more information please contact the Organizing Committee at <a href="mailto:iccl2019@uninorte.edu.co">iccl2019@uninorte.edu.co</a></span>
+                </div>
+                <div class="col-sm-4 text-right">
+                    <a class="btn btn-success" href="mailto:iccl2019@uninorte.edu.co">Contact <i class="fa fa-envelope"></i></a>
+                </div>
+            </div>
+            
+        </div>
+    </footer>
+	<script>
+		$(document).ready(function() {
+            /*$.jnoty("ICCL 2019 it's \"just around the corner\", need directions? <a href='#divdirections'>Here</a>", {
+                sticky: true,
+                header: 'Directions!',
+                theme: 'jnoty-info',
+                icon: 'fa fa-info-circle'
+            });*/
+            $("#table-program").DataTable({
+                ajax: {
+                    url: 'data/papers.json'
+                },
+                columns: [
+                    { data: 'presentation_date' },
+                    { data: 'start' },
+                    { data: 'end', className: "hidden-xs" },
+                    { data: 'location' },
+                    { data: 'type', className: "hidden-xs" },
+                    { data: 'tittle' },
+                    { data: 'abstract', className: "hidden-xs" },
+                    { data: 'session' },
+                    { data: 'authors', className: "hidden-xs"  }
+                ]
+
+            });
+		});
+	</script>
+</body>

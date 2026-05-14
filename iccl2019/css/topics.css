@@ -1,0 +1,54 @@
+.columns
+{   
+    -moz-column-width: 11.5em; /* Firefox */
+    -webkit-column-width: 11.5em; /* webkit, Safari, Chrome */
+    column-width: 11.5em;
+}
+/*remove standard list and bullet formatting from ul*/
+.columns ul
+{
+    margin: 0;
+    padding: 0;
+    padding-left: 5px;
+    /*list-style-type: none;*/
+}
+/* correct webkit/chrome uneven margin on the first column*/
+.columns ul li:first-child
+{
+    margin-top:0px;
+}
+.table-font {
+    font-size: 1vw;
+}
+
+.dropdown-menu.a:hover {
+    background-color: #cccccc !important;
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (max-width: 576px) { 
+    .hidden-xs {
+        display: none;
+    }
+    .table-font {
+        font-size: 3.5vw;
+    }
+    .show-xs {
+        display: block;
+    }
+    .logo {
+        width: 100%;
+    }
+ }
+ @media (min-width: 576px) { 
+    .show-xs {
+        display: none;
+    }
+    .logo {
+        width: 75%;
+    }
+ }
+ .dataTables_filter input {
+    border: solid 1px #cccccc;
+    padding: 4px;
+ }
